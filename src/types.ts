@@ -5,4 +5,6 @@ export type Exercise = {
   category: string
   muscles: string[]
   equipment: string[]
+  description: string
+  imageUrl: string | null
 }

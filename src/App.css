@@ -40,3 +40,12 @@
 .exercise-category {
   opacity: 0.7;
 }
+
+.exercise-image {
+  max-width: 100%;
+  max-height: 240px;
+}
+
+.error {
+  color: #e5484d;
+}
