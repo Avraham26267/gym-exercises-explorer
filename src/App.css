@@ -4,10 +4,37 @@
   text-align: left;
 }
 
+.layout {
+  display: flex;
+  gap: 32px;
+}
+
+.exercise-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
 .exercise-item {
   display: flex;
   gap: 12px;
-  padding: 8px 0;
+  width: 100%;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 6px;
+  background: none;
+  color: inherit;
+  font: inherit;
+  text-align: left;
+  cursor: pointer;
+}
+
+.exercise-item:hover {
+  background: rgba(128, 128, 128, 0.15);
+}
+
+.exercise-item.selected {
+  background: rgba(128, 128, 128, 0.3);
 }
 
 .exercise-category {
