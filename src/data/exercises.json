@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "name": "Bench Press",
+    "category": "Chest",
+    "muscles": ["Pectoralis major", "Triceps brachii"],
+    "equipment": ["Barbell", "Bench"]
+  },
+  {
+    "id": 2,
+    "name": "Squat",
+    "category": "Legs",
+    "muscles": ["Quadriceps femoris", "Gluteus maximus"],
+    "equipment": ["Barbell"]
+  },
+  {
+    "id": 3,
+    "name": "Biceps Curl",
+    "category": "Arms",
+    "muscles": ["Biceps brachii"],
+    "equipment": ["Dumbbell"]
+  },
+  {
+    "id": 4,
+    "name": "Pull-up",
+    "category": "Back",
+    "muscles": ["Latissimus dorsi", "Biceps brachii"],
+    "equipment": ["Pull-up bar"]
+  },
+  {
+    "id": 5,
+    "name": "Crunches",
+    "category": "Abs",
+    "muscles": ["Rectus abdominis"],
+    "equipment": ["Gym mat"]
+  }
+]
